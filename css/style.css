@@ -128,8 +128,8 @@ h1,h2,h3,h4,h5,h6,p{
   background-color: #1c5ce6;
   color: #ffffff;
 }
-.btn{
-  border: 2px solid #1d69f7;
+.btn:hover{
+  background-color: #ffffff;
 } 
 .about-btn{
   margin-top: 7%;
