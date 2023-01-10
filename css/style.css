@@ -113,35 +113,39 @@ h1,h2,h3,h4,h5,h6,p{
  
 .about-btn{
   margin-top: 7%;
+
 }
 .position-absolute{
   font-weight: 700;
   
 }
-
-.typed-cursor {
+.typed-cursor 
+{
   font-size: 45px;
   color: #ffffff;
 }
-
 .blue{
-  background-color: #1c5ce6;
+  background-color: #457efa;
   color: #ffffff;
 }
-.btn:hover{
+.btn_head{
   background-color: #ffffff;
+  color: #457efa;
 } 
-.about-btn{
-  margin-top: 7%;
+.btn_head:hover{
+  border: 2px solid white;
+  color: white;
 }
 .btn-white{
-  background-color: #ffffff;
-  border:2px solid #ffffff;
+  background-color: #457efa;
+  color: white;
+  border: 2px solid white;
 }
-.btn-blue{
-  border: 2.4px solid #ffffff;
-  color: #ffffff;
+.btn-white:hover{
+  background-color: white;
+  color: #457efa;
 }
+
 @media (max-width: 700px) {
   .about-img{
     margin-left: 20px;
